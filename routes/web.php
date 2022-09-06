@@ -58,12 +58,12 @@ Route::get('blogdata', 'AdminController@blogdata');
 
 Route::get('/logout', 'AdminController@logout');
 Route::get('/', 'AdminController@index');
-Route::any('{slug}', 'AdminController@index')->where('slug', '([A-z\d-\/_.]+)?');
+Route::any('{slug}', 'AdminController@index')->where('slug', '([A-z\d\-\/_.]+)?');
 
 
-// Route::get('/', function(){
-//     return view('welcome');
-// });
+ Route::get('/', function(){
+    return view('welcome');
+ });
 // Route::get('/', function(){
 //     return view('welcome');
 // });

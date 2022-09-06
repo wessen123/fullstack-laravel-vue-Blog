@@ -2786,17 +2786,17 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       roles: [],
       resources: [{
         resourceName: 'Home',
-        read: false,
-        write: false,
-        update: false,
-        "delete": false,
+        read: true,
+        write: true,
+        update: true,
+        "delete": true,
         name: '/'
       }, {
         resourceName: 'Tags',
-        read: false,
-        write: false,
-        update: false,
-        "delete": false,
+        read: true,
+        write: true,
+        update: true,
+        "delete": true,
         name: 'tags'
       }, {
         resourceName: 'Category',
@@ -2843,17 +2843,17 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       }],
       defaultResourcesPermission: [{
         resourceName: 'Home',
-        read: false,
-        write: false,
-        update: false,
-        "delete": false,
+        read: true,
+        write: true,
+        update: true,
+        "delete": true,
         name: '/'
       }, {
         resourceName: 'Tags',
-        read: false,
-        write: false,
-        update: false,
-        "delete": false,
+        read: true,
+        write: true,
+        update: true,
+        "delete": true,
         name: 'tags'
       }, {
         resourceName: 'Category',
@@ -92125,7 +92125,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _admin_pages_createBlog__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./admin/pages/createBlog */ "./resources/js/admin/pages/createBlog.vue");
 /* harmony import */ var _admin_pages_blogs__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./admin/pages/blogs */ "./resources/js/admin/pages/blogs.vue");
 /* harmony import */ var _admin_pages_editblog__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./admin/pages/editblog */ "./resources/js/admin/pages/editblog.vue");
-/* harmony import */ var _admin_pages_notfound__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./admin/pages/notfound */ "./resources/js/admin/pages/notfound.vue");
+/* harmony import */ var _admin_pages_notfound__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./admin/pages/notfound */ "./resources/js/admin/pages/notfound.vue");
 
 
 vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]);
@@ -92176,7 +92176,7 @@ var routes = [//projects routes....
   name: 'editblog'
 }, {
   path: '*',
-  component: _admin_pages_notfound__WEBPACK_IMPORTED_MODULE_18__["default"],
+  component: _admin_pages_notfound__WEBPACK_IMPORTED_MODULE_17__["default"],
   name: 'notfound'
 }, {
   path: '/adminusers',
@@ -92528,7 +92528,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/mdzainalabedin/laravel/fullstack/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\Laravel\fullstack-laravel-vue\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
